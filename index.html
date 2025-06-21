@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-BooxStore</title>
+    <link rel="stylesheet" href="K-BooxStore.css">
+</head>
+<body>
+    
+    <header class="site-header">
+        <a href="index">
+        <img src="logo2.png" alt="K-BooxStore" class="header-logo">
+        <h1 class="visually-hidden">K-BooxStore</h1>
+             </a>
+        <p>Ou les livres trouvent leur ame soeur...vous !</p>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="selections.html">Nos sélections</a>
+            <a href="back2books.html">Back2Books</a>
+            <a href="lectgo.html">Lect'Go</a>
+        </nav>
+    
+    </header>
+
+    <main class="layout">
+        <section class="hero"><h1>Bienvenue</h1></section>
+        <section  class="about">
+    <section id="accueil">
+        <img src="hero.jpg" alt="Bienvenue sur K-BooxStore" class="hero-img">
+        <h2>Bienvenue sur K-BooxStore</h2>
+        <p>Votre librairie en ligne dédié aux passionnés de lecture. Découvrez des livres neufs ou d'occasion et donnez une seconde vie à vos ouvrages avec notre programme Back2Books.</p>
+    </section>
+
+    <section id="apropos">
+        <div class="a-propos-container">
+            <img src="about.jpg" alt="Notre mission"
+            class="section-img">
+            <div>
+        <h2>À propos</h2>
+        <p>K-BooxStore est une plateforme engagée qui valorise la lecture et la durabilitée. Nous connectons les lecteurs avec leurs futurs livres préférés tout en réduisant le gaspillage.</p>
+    </div> 
+          </div>   
+    </section>
+ 
+    <section id="services">
+        <div class="services">
+            <img src="service livres.jpg" alt="Vente de livre" class="section-img">
+        <h2>Nos services</h2>
+        <ul>
+            <a href="selections.html" class="cta-button">Vente de livres neufs</a><br>
+            <a href="back2books.html" class="cta-button">Programme Back2Books : rachat de livres</a><br>
+            <a href="lectgo.html" class="cta-button">Programme Lect'Go : location de livres</a>
+        </ul>
+    </div>
+    </section>
+    
+    <section id="catalogue">
+        <h2>Nos sélections</h2>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Rechercher un livre...">
+        </div>
+        <div class="catalogue-container" id="catalogueContainer">
+
+            <!-- Livre 1 -->
+            <div class="book-card">
+                <img src="images/livre 1.jpg" alt="Titre du livre 1" class="book-cover" />
+                <h3>Titre du livre 1</h3>
+                <p>Auteur : Nom Auteur</p>
+                <button class="btn"
+                onclick="openModal('modal1')">Voir détail
+                </button>
+            </div>
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <span class="close"
+                    onclick="closeModal('modal1')">&times;</span>
+                    <h2>Livre 1</h2>
+                <p>résumé...</p>
+                </div>
+            </div>
+
+            <!-- Livre 1 -->
+            <div class="book-card">
+                <img src="images/livre 1.jpg" alt="Titre du livre 1" class="book-cover" />
+                <h3>Titre du livre 1</h3>
+                <p>Auteur : Nom Auteur</p>
+                <button class="btn"
+                onclick="openModal('modal1')">Voir détail
+                </button>
+            </div>
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <span class="close"
+                    onclick="closeModal('modal1')">&times;</span>
+                    <h2>Livre 1</h2>
+                <p>résumé...</p>
+                </div>
+            </div>
+
+            <!-- Livre 1 -->
+            <div class="book-card">
+                <img src="images/livre 1.jpg" alt="Titre du livre 1" class="book-cover" />
+                <h3>Titre du livre 1</h3>
+                <p>Auteur : Nom Auteur</p>
+                <button class="btn"
+                onclick="openModal('modal1')">Voir détail
+                </button>
+            </div>
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <span class="close"
+                    onclick="closeModal('modal1')">&times;</span>
+                    <h2>Livre 1</h2>
+                <p>résumé...</p>
+                </div>
+            </div>
+
+            <!-- Livre 1 -->
+            <div class="book-card">
+                <img src="images/livre 1.jpg" alt="Titre du livre 1" class="book-cover" />
+                <h3>Titre du livre 1</h3>
+                <p>Auteur : Nom Auteur</p>
+                <button class="btn"
+                onclick="openModal('modal1')">Voir détail
+                </button>
+            </div>
+            <div id="modal1" class="modal">
+                <div class="modal-content">
+                    <span class="close"
+                    onclick="closeModal('modal1')">&times;</span>
+                    <h2>Livre 1</h2>
+                <p>résumé...</p>
+                </div>
+            </div>
+            <a href="selections.html" class="cta-button">Voir plus...</a>
+            
+    </section>
+
+    <section id="back2books"
+    class="section">
+    <div class="back2books-container">
+        <img src="back2books.jpg"
+         alt="Programme Back2Books"
+         class="section-img">
+         <div>
+            <h2>Back2Books</h2>
+            <p>
+                Avec notre programme <strong>Back2Books</strong>, donnez une seconde vie à vos livres !
+               <br> Ramenez vos livres déjà lus, et nous les revalorisons à travers des dons, ou des ventes solidaires.
+            </p>
+            <a href="back2books.html" class="cta-button"> Participer au programme</a>
+         </div>
+    </div>
+    </section>
+
+   <section id="faq" class="section">
+    <h2>Foire aux questions (FAQ)</h2>
+    <img src="faq.jpg" alt="FAQ - 
+    Questions fréquentes" class="faq-img">
+    <div class="faq-item">
+        <h3> Comment commander un livre ?</h3>
+        <p>Vous pouvez commander via le site ou en nous contactant directement par WhatsApp ou Instagram.</p>
+    </div>
+   </section>
+
+    <section id="contact">
+        <img src="contact.jpg" alt="Contactez-nous" class="section-img">
+        <h2>Contactez-nous</h2>
+        <p>Choisissez votre methode de contact :</p>
+        <form>
+            <label for="nom">Nom :</label><br>
+            <input type="text" id="nom" name="nom" required><br>
+            <label for="email">Email (facultatif) :</label><br>
+            <input type="email" id="email"
+            name="email"><br>
+            <label for="message">Message :</label><br>
+            <textarea name="message" id="message" rows="5"></textarea><br>
+            <p>Comment souhaiteez-vous nous contacter ?</p>
+
+            <label>
+                <input type="radio" name="contact-method" value="whatsapp"required>WhatsApp
+            </label><br>
+            <label>
+                <input type="radio" name="contact-method" value="instagram"required>Instagram
+            </label><br>
+
+            <button type="submit" onclick="handleFormSubmit(event)">Envoyer
+            </button>
+        </form>
+        <p>Vous pouvez aussi nous contacter directement via :</p>
+        <a href="https://wa.me/50946244246" target="_blank">WhatsApp</a>
+        <a href="https://instagram.com/k_booxstore" target="_blank">Instagram</a>
+    </section>
+</main>
+    <footer>
+        <nav>
+            <ul>
+                <a href="#">Mentions légales</a>
+                <a href="#">Politique de confidentialité</a>
+                <a href="#">Plan du site</a>
+            </ul>
+        </nav>
+        <p>&copy; 2025 K-Booxstore. Tous droit réservés.</p>
+    </footer>
+    <script src="K-BooxStore.js"></script>
+</body>
+</html>

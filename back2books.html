@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>K-BooxStore - Back2books</title>
+    <link rel="stylesheet" href="K-BooxStore.css">
+</head>
+<body>
+    <header class="site-header">
+        <a href="index">
+        <img src="logo2.png" alt="K-BooxStore" class="header-logo">
+        <h1 class="visually-hidden">K-BooxStore</h1>
+             </a>
+        <p>Ou les livres trouvent leur ame soeur...vous !</p>
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="about.html">À propos</a>
+            <a href="selections.html">Nos sélections</a>
+            <a href="back2books.html">Back2Books</a>
+            <a href="lectgo.html">Lect'Go</a>
+            <a href="kbxcloud.html">K-BxCloud</a>
+        </nav>
+         <h1>Back2Books - Vendez, échangez, lisez encore</h1>
+    </header>
+
+    <main class="layout">
+        <section class="hero"><h1>Bienvenue</h1></section>
+        <section  class="about">
+      <section class="presentation">
+        <h2>Qu'est-ce que Back2Books ?</h2>
+        <p>Vous avez des livres que vous n'utilisez plus?
+            Donnez-leur une seconde vie grâce à notre service
+            <strong>Back2Books</strong>!
+        </p>
+        <p>Back2Books est notre progrmme solidaire et durable qui permet aux lecteurs de vendre, donner ou échanger leurs anciens livres. Que vous souhaitiez faire de la place chez vous ou simplement partager vos coups de coeur, nous sommes là pour vous accompagner.</p>
+      </section>
+        
+      <section class="fonctionnement">
+        <h2>Comment ca fonctionne ?</h2>
+         <ol>
+            <li>Contactez-nous avec la liste de vos livres à vendre.</li>
+            <li>Nous évaluons leur état et leur valeur.</li>
+            <li>Nous vous proposons un prix juste et équitable.</li>
+            <li>Après acceptation, nous organisons la collecte ou la remise des livres.</li>
+        </ol>
+        <p>
+            C'est simple, rapide, et vous contribuez à promouvoir la lecture durable
+        </p>
+      </section>
+       
+       <section class="avantages">
+        <h2>Pourquoi back2books ?</h2>
+        <ul>
+            <li>Une démarche éco-responsable</li>
+            <li>Un geste solidaire envers les lecteurs à petit budget</li>
+            <li>Gagner de l'argent ou des crédits en retour</li>
+            <li>Favorisez l'accès à la lecture</li>
+        </ul>
+       </section>
+
+       <section class="temoignages">
+        <h2>Ils ont essayé Back2Books</h2>
+        <blockquote>"Grace à Back2Books, j'ai vidé ma bibliothèque et fait plaisir à d'autres lecteurs !" - Sarah, Cap-Haïtien</blockquote>
+        <blockquote>"J'ai échangé 5 livres contre des crédits pour en découvrir de nouveaux." - Jennie</blockquote>
+       </section>
+
+        <section class="cta">
+            <h2>Prêt à faire voyager vos livres ?</h2>
+            <a href="#" id="proposerLivresBtn" class="btn">
+                Proposer mes livres
+            </a>
+        </section>
+
+        <section id="contact">
+       
+            <h2>Contactez-nous</h2>
+            <p>Choisissez votre methode de contact :</p>
+            <form>
+                <label for="nom">Nom :</label><br>
+                <input type="text" id="nom" name="nom" required><br>
+                <label for="email">Email (facultatif) :</label><br>
+                <input type="email" id="email"
+                name="email"><br>
+                <label for="message">Message :</label><br>
+                <textarea name="message" id="message" rows="5"></textarea><br>
+                <p>Comment souhaiteez-vous nous contacter ?</p>
+    
+                <label>
+                    <input type="radio" name="contact-method" value="whatsapp"required>WhatsApp
+                </label><br>
+                <label>
+                    <input type="radio" name="contact-method" value="instagram"required>Instagram
+                </label><br>
+    
+                <button type="submit" onclick="handleFormSubmit(event)">Envoyer
+                </button>
+            </form>
+            <p>Vous pouvez aussi nous contacter directement via :</p>
+            <a href="https://wa.me/50946244246" target="_blank">WhatsApp</a>
+            <a href="https://instagram.com/k_booxstore" target="_blank">Instagram</a>
+        </section>
+    </main>
+    <script src="K-BooxStore.js"></script>
+</body>
+<footer>
+    <nav>
+        <ul>
+            <a href="#">Mentions légales</a>
+            <a href="#">Politique de confidentialité</a>
+            <a href="#">Plan du site</a>
+        </ul>
+    </nav>
+    <p>&copy; 2025 K-Booxstore. Tous droit réservés.</p>
+</footer>
+</html>
